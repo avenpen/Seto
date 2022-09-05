@@ -696,7 +696,7 @@ def lisensi():
     except:
         tlisensi()
     ses=requests.Session()
-    res=ses.get('https://app.cryptolens.io/api/key/Activate?WyIyNDk1NDM3MSIsIkRaVVlSWkMwZ3Q4WDdHbHNyZGFENEt6RlIvTXBCdy9Hb0phNFRZSzkiXQ==&ProductId=16663&Key='+lisensikuni[0]).json()
+    res=ses.get('https://app.cryptolens.io/api/key/Activate?WyIyNDk1NDM3MSIsIkRaVVlSWkMwZ3Q4WDdHbHNyZGFENEt6RlIvTXBCdy9Hb0phNFRZSzkiXQ==&ProductId=16663&Key=LVMYR-MNZZS-YVYYS-CABTP).json()
     status=res['licenseKey']['key']
     if status ==cek:
         banner()
